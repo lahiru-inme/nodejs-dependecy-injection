@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-dependecy-injection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start" : "nodemon src/index.js"
+  },
+  "dependencies": {
+    "awilix": "^4.3.3",
+    "convict": "^6.0.1",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
